@@ -1,0 +1,70 @@
+\documentclass{fosuop} 
+
+\usepackage{lipsum} %for dummy content, remove this
+
+\makeglossaries % for list of abbreviations
+\loadglsentries{prefatory-chapters/0-abbreviations} % Load abbreviations from file
+\addbibresource{references.bib}
+
+%variables
+\def\projectTitle{\textless project title\textgreater}
+\def\nameWithInitials{\textless john doe\textgreater}
+\def\registrationNumber{\textless S/XX/XX\textgreater}
+\def\departmentName{Department of Statistics and Computer Science}
+\def\degreeName{BSc. (Honours) in Computer Science}
+\def\universityName{University of Peradeniya}
+\def\universityCountry{Sri Lanka}
+\def\publicationYear{2023}
+\def\supervisorNameOne{\textless supervisor one\textgreater}
+\def\supervisorNameTwo{\textless supervisor two\textgreater}
+
+\begin{document}
+
+\input{prefatory-chapters/0-title}
+
+\restoregeometry
+
+\pagenumbering{roman}
+\input{prefatory-chapters/0-declaration}
+\input{prefatory-chapters/0-abstract}
+\input{prefatory-chapters/0-acknowledgement}
+
+\renewcommand*\contentsname{Table of Contents}
+\tableofcontents
+
+\renewcommand{\listfigurename}{LIST OF FIGURES}
+\listoffigures
+\addcontentsline{toc}{chapter}{\listfigurename}
+
+\renewcommand{\listtablename}{LIST OF TABLES}
+\listoftables
+\addcontentsline{toc}{chapter}{\listtablename}
+
+% List of abbreviations
+\printacronyms[title=list of abbreviations, toctitle=LIST OF ABBREVIATIONS, style=listofabbstyle]
+
+\newpage
+\pagenumbering{arabic}
+
+\chapter{INTRODUCTION}\label{introduction}
+\input{main-chapters/1-introduction}
+
+\chapter{LITERATURE REVIEW}\label{lit-review}
+\input{main-chapters/2-literature}
+
+\chapter{DESIGN}\label{design}
+\input{main-chapters/3-design}
+
+\chapter{IMPLEMENTATION}\label{implementation}
+\input{main-chapters/4-implementation}
+
+\chapter{RESULTS AND DISCUSSION}\label{results}
+\input{main-chapters/5-results}
+
+\chapter{CONCLUSION}\label{conclusion}
+\input{main-chapters/6-conclusion}
+
+{\linespread{1}
+	\printbibliography[title={REFERENCES},heading=bibintoc]}
+
+\end{document}
