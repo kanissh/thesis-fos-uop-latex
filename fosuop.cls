@@ -30,9 +30,11 @@
 \RequirePackage[nogroupskip , toc, nonumberlist, nopostdot, acronyms, automake]{glossaries}
 \RequirePackage[toc]{appendix}
 \RequirePackage[titles]{tocloft}
+\RequirePackage{fancyhdr}
+
+\setlength{\footskip}{15mm} %set footer page number 10mm from bottom of the page.
 
 % remove the space inserted between table and figure caption entries between chapters (not the best solution. Should avoid editing addvspace)
-
 \renewcommand{\listoffigures}{
     \if@twocolumn
         \@restonecoltrue\onecolumn
