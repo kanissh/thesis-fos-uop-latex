@@ -6,7 +6,7 @@
 
 ## Todo
 
-- [ ] Fix location of page numbers in the prefatory pages.
+- [x] ~Fix location of page numbers in the prefatory pages.~
 - [ ] Add appendix
 
 ## Introduction
