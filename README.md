@@ -1,12 +1,7 @@
 # thesis-fos-uop-latex
-
-**Please note that this template is a work-in-progress. This is a working template with minor upgrades needed.**
-
 **Note that this readme is a work-in-progress. This will be updated with more information*
 
 ## Todo
-
-- [x] ~Fix location of page numbers in the prefatory pages.~
 - [ ] Add appendix
 
 ## Introduction
