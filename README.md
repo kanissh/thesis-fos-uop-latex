@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This is a project report/thesis template for B.Sc. Computer Science of Faculty of Science, University of Peradeniya. This might be suitable for other study programs with minor adjustments. But this template is based on the B.Sc. Computer Science program requirements. This is made using the offical thesis guidelines. This is not an official template provided by the institution. 
+This is a project report/thesis template for B.Sc. Computer Science of Faculty of Science, University of Peradeniya. This might be suitable for other study programs with minor adjustments. But this template is based on the B.Sc. Computer Science program requirements. This is made using the offical thesis guidelines. This is not an official template provided by the institution. View sample pdf of this template [here.](./main.pdf)
 
 ## Prerequisites
 
